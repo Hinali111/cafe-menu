@@ -163,7 +163,7 @@ button:hover{
 
 
 
-/*! display menu-itmes */
+/*! display menu */
 .table-container{
     overflow-x:auto;
 }
@@ -211,8 +211,3 @@ tbody tr:hover{
 .delete-btn:hover{
     background:#c62828;
 }
-
-
-
-
-

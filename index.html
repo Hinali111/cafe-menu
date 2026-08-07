@@ -33,6 +33,48 @@
     <!-- Main -->
     <main>
 
+        <!--! for form feature-add -->
+        <div class="card">
+        <h2>Add Menu Item</h2>
+        <p>Add a new item to the café menu.</p>
+        <form id="menuForm">
+
+            <div class="input-group">
+                <label>Item ID</label>
+                <input type="text" id="itemId" placeholder="Enter Item ID">
+            </div>
+
+            <div class="input-group">
+                <label>Item Name</label>
+                <input type="text" id="itemName" placeholder="Enter Item Name">
+            </div>
+
+            <div class="row">
+
+                <div class="input-group">
+                    <label>Category</label>
+                    <select id="category">
+                        <option value="">Select Category</option>
+                        <option>Coffee</option>
+                        <option>Tea</option>
+                        <option>Snack</option>
+                        <option>Dessert</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Price (₹)</label>
+                    <input type="number" id="price" placeholder="Enter Price">
+                </div>
+
+            </div>
+
+            <button type="submit" id="addBtn">
+                Add Menu Item
+            </button>
+        </form>
+    </div>
+
     </main>
 
     <!-- Footer -->

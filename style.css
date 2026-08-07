@@ -211,3 +211,32 @@ tbody tr:hover{
 .delete-btn:hover{
     background:#c62828;
 }
+
+
+
+/*! search */
+.search-box{
+    display:flex;
+    gap:15px;
+    margin:25px 0;
+}
+
+.search-box input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+}
+
+.search-box button{
+    width:140px;
+}
+
+#resetBtn{
+    background:#777;
+}
+
+#resetBtn:hover{
+    background:#555;
+}

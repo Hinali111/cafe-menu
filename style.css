@@ -160,3 +160,59 @@ button:hover{
 }
 
 }
+
+
+
+/*! display menu-itmes */
+.table-container{
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+thead{
+    background:#5d4037;
+    color:#fff;
+}
+
+th{
+    padding:14px;
+    text-align:center;
+}
+
+td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid #e5e5e5;
+}
+
+tbody tr{
+    transition:.3s;
+}
+
+tbody tr:hover{
+    background:#f8f2ed;
+}
+
+.delete-btn{
+    border:none;
+    background:#e53935;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.delete-btn:hover{
+    background:#c62828;
+}
+
+
+
+
+
